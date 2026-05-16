@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px;
+    background-color: rgb(58, 28, 39);
+    height: 70px;
+    width: 100%;
+    object-position: bottom;
+    object-fit: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(45, 21, 30);
+}
+
+nav a{
+    color: rgb(255, 244, 141);
+    font-size: 110%;
+}
+
+h1{
+    color: #cfcecc;
+    text-align: center;
+    font-size: 250%;
+}
+
+main{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/clase_5/img/horizonte.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+h2{
+    padding: 10px;
+    color: rgb(255, 245, 182);
+    text-align: center;
+    font-size: 200%;
+}
+
+.versiculoPrincipal{
+    text-align:left;
+}
+
+h3{
+    color: rgb(235, 133, 110);
+    font-size: 140%;
+    margin: 10px;
+}
+
+.mates h3 {
+    color: rgb(255, 245, 182);
+}
+
+p{
+    color: rgb(255, 253, 209);
+    margin-left: 10px;
+    margin-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+.mates{
+    /*border: 2px rgb(130, 0, 65) solid;*/
+    border-radius: 10px;
+    margin: 0px 90px 60px 190px; 
+    text-align: center;
+    background: rgba(128, 128, 128, 0.555);
+    height: 380px;
+    width: 320px;
+}
+
+.mates p{
+    margin-top: 5px;
+    color: hwb(45 72% 0%);
+    font-weight: bold;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    background-color:  rgba(189, 141, 96, 0.729);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.contenedor1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 20px 0px 20px; 
+    padding-top: -60px;
+}
+
+.contenedor2{
+    margin: 5px 0px 5px 0px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    border-radius: 70px;
+    width: 110px;
+    height: 70px;
+}
+
+footer{
+    padding-top: 10px;
+    height: 100px;
+    background: rgb(19, 27, 48);
+}
+
+a{
+    margin-left: 10px;
+    color: rgb(0, 136, 255);
+}
+
+.textoFooter{
+    padding-top: 20px;
+}
+
+@media ((min-width: 0px) and (max-width: 768px)){
+
+    h1{
+        font-size: 150%;
+    }
+
+    h2{
+        font-size: 140%;
+    }
+
+    h3{
+        font-size: 120%;
+    }
+
+    .contenedor1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mates{
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer{
+        height: 150px;
+    }
+
+    main{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/clase_5/img/horizonteVertical.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media ((min-width: 769px) and (max-width: 1499px)){
+    h1{
+    color: #cfcecc;
+    text-align: center;
+    font-size: 210%;
+}
+
+    .contenedor1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mates{
+        width: 40%;
+        height: auto;
+        padding-bottom: 10px;
+        margin: 20px;
+    }
+}
+
+@media ((min-width: 1500px) and (max-width: 1799px)){
+    .contenedor1{
+        padding: -20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mates{
+        /*border: 2px rgb(130, 0, 65) solid;*/
+        border-radius: 10px;
+        margin: 0px 60px 60px 60px; 
+        text-align: center;
+        background: rgba(128, 128, 128, 0.555);
+        height: 380px;
+        width: 320px;
+    }
+}
+
+.aboutUsText{
+    padding-top: 20px;
+    font-size: 120%;
+}
+
+.AboutUsH3{
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+
+.AboutUsH4{
+    margin-top: 80px;
+    font-size: 220%;
+    color: rgb(255, 221, 0);
+    text-align: center;
+}
