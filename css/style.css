@@ -31,7 +31,7 @@ h1{
 }
 
 main{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/horizonte.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/horizonte.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ a{
     }
 
     main{
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/horizonteVertical.png");
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/horizonteVertical.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
